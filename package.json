@@ -21,5 +21,8 @@
   "homepage": "https://github.com/setsugan/zenn-content#readme",
   "dependencies": {
     "zenn-cli": "^0.5.3"
+  },
+  "devDependencies": {
+    "markdownlint": "^0.41.1"
   }
 }
