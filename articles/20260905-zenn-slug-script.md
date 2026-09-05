@@ -100,6 +100,14 @@ npx zenn new:article --slug "$SLUG"
 chmod +x scripts/new-article.sh
 ```
 
+また、 `package.json` に以下を書いておきます。
+
+```json
+"scripts": {
+    "new:article": "./scripts/new-article.sh"
+},
+```
+
 ## 実際に使ってみる
 
 ブランチを切ります。
