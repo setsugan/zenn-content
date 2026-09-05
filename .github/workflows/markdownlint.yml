@@ -1,0 +1,27 @@
+name: Markdown lint
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: DavidAnson/markdownlint-cli2-action@v24
+        with:
+          fix: ${{ github.event_name == 'push' }}
+          globs: "**/*.md"
+      - name: Commit fixes
+        if: github.event_name == 'push'
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.md'
+          git commit -m "style: fix Markdown lint"
+          git push
