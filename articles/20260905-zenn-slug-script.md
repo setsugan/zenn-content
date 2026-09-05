@@ -1,6 +1,6 @@
 ---
 title: "Zenn CLIのSlug命名を自動化する"
-emoji: "🐺"
+emoji: "🛠️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Zenn"]
 published: true

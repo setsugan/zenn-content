@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu24.04で6GHzに接続する"
-emoji: "🐺"
+emoji: "🌐"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [6ghz]
 published: true
