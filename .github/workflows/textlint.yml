@@ -1,0 +1,19 @@
+name: Text lint
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  textlint:
+    name: runner / textlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: tsuyoshicho/action-textlint@v3
+        with:
+          level: warning
+          textlint_flags: "README.md articles/*.md books/**/*.md"
