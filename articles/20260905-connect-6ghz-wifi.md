@@ -41,7 +41,7 @@ nmcli device wifi rescan
 接続可能な `wifi` を確認する。
 
 ```bash
-nmcli decice wifi list
+nmcli device wifi list
 ```
 
 お好きな `wifi` に接続する。
