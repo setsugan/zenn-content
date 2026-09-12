@@ -1,6 +1,6 @@
 ---
 title: "UbuntuのデスクトップにHomeの中身を表示する"
-emoji: "💭"
+emoji: "🖥️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ubuntu"]
 published: true
