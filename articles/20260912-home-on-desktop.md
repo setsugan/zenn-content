@@ -45,7 +45,7 @@ XDG_VIDEOS_DIR="$HOME/Videos"
 
 すると、home の中身がデスクトップに表示されます。
 
-![デスクトップに表示された](/images/image2.png)
+![デスクトップに表示された](/images/desktop.png)
 
 ## さいごに
 
